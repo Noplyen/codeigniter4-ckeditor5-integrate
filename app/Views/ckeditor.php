@@ -13,6 +13,17 @@
 
     <title>ckeditor</title>
 
+    <style>
+        .ck-editor__editable {
+            overflow-y: auto;
+            height: 400px;
+        }
+        /*for caption image input ckeditor*/
+        .ck .ck-editor__nested-editable {
+            border: 1px solid transparent;
+            max-height: 70px;
+        }
+    </style>
 </head>
 <body>
 
